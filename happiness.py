@@ -1,0 +1,6 @@
+n,m=map(int,input().split())
+arr=map(int,input().split())
+first=set(map(int,input().split()))
+second=set(map(int,input().split()))
+happines=sum((i in first)-(i in second) for i in arr )
+print(happines)
