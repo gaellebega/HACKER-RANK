@@ -2,3 +2,5 @@ we have the .rjust() this method is used to move the text to the right
 we also have the .ljust() which is used to move the text to the left
 we also have the .center() which take the elements to the center
 we also have the .zfill() which is used to fill the remainig space tih zeros
+
+we get the index error when we are out of the range that we want to access
